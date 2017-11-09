@@ -12,12 +12,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
+
 import javax.annotation.Resource;
 import java.util.Date;
 import java.util.List;
@@ -26,7 +29,8 @@ import java.util.List;
  * Created by asus on 2017/11/7.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {JpaConfiguration.class})
+@SpringBootTest
+@WebAppConfiguration
 public class JpaTest {
 
     protected static final Logger log = LoggerFactory.getLogger(JpaTest.class);
