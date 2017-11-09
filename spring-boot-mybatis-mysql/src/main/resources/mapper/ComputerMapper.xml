@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.kdso.demo.dao.ComputerDao">
+	<resultMap id="BaseResultMap" type="com.kdso.demo.entity.Computer">
+		<result column="id" property="id" />
+		<result column="brand" property="brand" />
+		<result column="description" property="description" />
+	</resultMap>
+
+	<parameterMap id="Computer" type="com.kdso.demo.entity.Computer"/>
+
+	<sql id="Base_Column_List">
+		id, brand, description
+	</sql>
+
+	<select id="findByBrand" resultMap="BaseResultMap" parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from computer
+		where brand = #{brand}
+	</select>
+
+</mapper>

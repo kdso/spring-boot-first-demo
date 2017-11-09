@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/test01
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+server:
+  port: 80
