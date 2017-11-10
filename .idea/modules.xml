@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb/spring-boot-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mongodb-thymeleaf/spring-boot-mongodb-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-mongodb-thymeleaf/spring-boot-mongodb-thymeleaf.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mysql/spring-boot-mybatis-mysql.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mysql/spring-boot-mybatis-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-neo4j/spring-boot-neo4j.iml" filepath="$PROJECT_DIR$/spring-boot-neo4j/spring-boot-neo4j.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" filepath="$PROJECT_DIR$/spring-boot-redis/spring-boot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-rest-helloword/spring-boot-rest-helloword.iml" filepath="$PROJECT_DIR$/spring-boot-rest-helloword/spring-boot-rest-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
