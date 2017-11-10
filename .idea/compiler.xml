@@ -11,6 +11,8 @@
         <module name="spring-boot-mongodb" />
         <module name="spring-boot-mongodb-thymeleaf" />
         <module name="spring-boot-mybatis-mysql" />
+        <module name="spring-boot-redis" />
+        <module name="spring-boot-redis-connect" />
         <module name="spring-boot-rest-helloword" />
         <module name="spring-boot-thymeleaf" />
       </profile>
@@ -23,6 +25,8 @@
       <module name="spring-boot-mongodb" target="1.8" />
       <module name="spring-boot-mongodb-thymeleaf" target="1.8" />
       <module name="spring-boot-mybatis-mysql" target="1.8" />
+      <module name="spring-boot-redis" target="1.8" />
+      <module name="spring-boot-redis-connect" target="1.8" />
       <module name="spring-boot-rest-helloword" target="1.8" />
       <module name="spring-boot-thymeleaf" target="1.8" />
     </bytecodeTargetLevel>

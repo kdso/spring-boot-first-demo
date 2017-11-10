@@ -1,9 +1,11 @@
 package com.kdso.demo;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.annotation.Generated;
 
+@Document(collection = "user") //指定对应的collection
 public class User {
 
     @Id
